@@ -55,6 +55,7 @@ final public class PageStackView: UIStackView {
 
     public func select(index: Int, animated: Bool = true) {
 
+        guard index >= 0 else { return }
         guard index < self.arrangedSubviews.count else { return }
         guard index != self.selectedIndex else { return }
 
