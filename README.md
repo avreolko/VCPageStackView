@@ -6,3 +6,6 @@ Pagination based on UIStackView
 
 ## Installation
 Install with SPM 📦
+
+## License ##
+This project is released under the [MIT license](https://en.wikipedia.org/wiki/MIT_License).
